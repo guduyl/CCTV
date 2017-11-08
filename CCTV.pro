@@ -13,9 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        cctv.cpp
+        cctv.cpp \
+    televisionwidget.cpp \
+    televisioncontrolwidget.cpp \
+    televisioncontrolbutton.cpp
 
-HEADERS  += cctv.h
+HEADERS  += cctv.h \
+    televisionwidget.h \
+    televisioncontrolwidget.h \
+    televisioncontrolbutton.h \
+    headers.h
 
 DISTFILES += \
     RECORD.md \
